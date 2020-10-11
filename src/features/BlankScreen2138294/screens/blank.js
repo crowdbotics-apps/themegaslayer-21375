@@ -30,7 +30,7 @@ export class _Blank extends React.Component {
         title="menu botton"
         color="#3366FF"
         style={styles.Button_3}
-        onPress={() => this.props.navigation.navigate("BlankScreen3138295")}
+        onPress={() => this.props.navigation.navigate("BlankScreen5138298")}
       />
     </View>
   )
