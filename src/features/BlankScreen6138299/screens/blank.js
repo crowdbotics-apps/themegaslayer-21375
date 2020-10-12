@@ -39,11 +39,7 @@ export class _Blank extends React.Component {
           style={styles.Button_3}
           onPress={() => this.props.navigation.navigate("BlankScreen7138300")}
         />
-        <Icon
-          iconFont="FontAwesome Icons"
-          name="adjust"
-          style={styles.Icon_7}
-        />
+        <Icon iconFont="FontAwesome Icons" style={styles.Icon_7} />
       </ImageBackground>
     </View>
   )
