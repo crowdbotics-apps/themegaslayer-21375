@@ -26,12 +26,25 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View style={styles.View_1}>
-      <Button
-        title="menu button "
-        color="#3366FF"
-        style={styles.Button_3}
-        onPress={() => this.props.navigation.navigate("BlankScreen7138300")}
-      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/download_1.png"
+        }}
+        style={styles.ImageBackground_5}
+      >
+        <Button
+          title="menu button "
+          color="#3366FF"
+          style={styles.Button_3}
+          onPress={() => this.props.navigation.navigate("BlankScreen7138300")}
+        />
+        <Icon
+          iconFont="FontAwesome Icons"
+          name="adjust"
+          style={styles.Icon_7}
+        />
+      </ImageBackground>
     </View>
   )
 }
